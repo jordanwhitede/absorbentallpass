@@ -5,22 +5,32 @@ categories:: UGens>TODO
 
 description::
 
-An absorbent allpass filter
+An absorbent allpass filter as described by Dahl and Jot. A typical allpass
+filter with a Lowpass filter after the delay line but before being mixed with
+the feedforward signal or being fedback.
 
 
 classmethods::
 
-method::ar, kr
+method::ar
 
-argument::TODO
+argument::in an input signal
 
-argument::TODO
+argument::maxDelayTime as in other SC Ugens, to know how much memory to allocate
+
+argument::delayTime the delay delayTime
+
+argument::coefficient the allpass coefficient. Unlike the core Allpass UGens,
+the coefficient is here given directly rather than decay time to easier
+reconstruct reverbs from old papers
+
+argument::filterFreq the frequency of the low pass filter
 
 
 examples::
 
 code::
 
-{ AbsAllpass.ar(/* TODO */) }.play
+{ AbsAllpass.ar(Saw.ar(220 ! 2) * -20.dbamp, 0.2, 0.2, 0.7, 1000) }.play
 
 ::
