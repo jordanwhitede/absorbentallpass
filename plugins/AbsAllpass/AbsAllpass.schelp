@@ -1,0 +1,26 @@
+class:: AbsAllpass
+summary:: An absorbent allpass filter
+related:: TODO
+categories:: UGens>TODO
+
+description::
+
+An absorbent allpass filter
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ AbsAllpass.ar(/* TODO */) }.play
+
+::
