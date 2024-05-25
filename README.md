@@ -2,7 +2,7 @@
 
 Author: Jordan White
 
-An absorbent allpass filter
+An absorbent allpass filter as described by Dahl and Jot for certain experimental reverb topologies. I started working on this to teach myself how to make UGens in C++ so there are probably a ton of issues!
 
 ### Requirements
 

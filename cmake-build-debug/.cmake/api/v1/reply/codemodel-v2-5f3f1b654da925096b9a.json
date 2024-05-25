@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-64a21ff204d09e9f1569.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Absorbent Allpass",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AbsAllpass_scsynth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AbsAllpass_scsynth-Debug-d272c887736662f93391.json",
+					"name" : "AbsAllpass_scsynth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AbsAllpass_supernova::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AbsAllpass_supernova-Debug-203a90b0ddbbd21541cf.json",
+					"name" : "AbsAllpass_supernova",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jordan/Documents/cpp/scplugins/absorbentallpass/cmake-build-debug",
+		"source" : "/home/jordan/Documents/cpp/scplugins/absorbentallpass"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

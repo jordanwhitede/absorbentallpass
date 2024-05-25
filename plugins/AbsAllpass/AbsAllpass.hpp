@@ -17,7 +17,7 @@ private:
     void next(int nSamples);
 
     // Member variables
-    // sample rate? max delay time, delay time, coefficient, ffreq
+    // sample rate? delay time, coefficient, ffreq
 };
 
 } // namespace AbsAllpass

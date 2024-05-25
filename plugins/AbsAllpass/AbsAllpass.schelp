@@ -31,6 +31,6 @@ examples::
 
 code::
 
-{ AbsAllpass.ar(Saw.ar(220 ! 2) * -20.dbamp, 0.2, 0.2, 0.7, 1000) }.play
+{ AbsAllpass.ar(Saw.ar(220 ! 2) * -20.dbamp, 0.2, 0.7, 1000) }.play
 
 ::
