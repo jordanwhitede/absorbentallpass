@@ -15,9 +15,21 @@ public:
 private:
     // Calc function
     void next(int nSamples);
+    void clear(int inNumSamples);
 
     // Member variables
-    // sample rate? delay time, coefficient, ffreq
+  float* historybuffer;
+  float* delaybuffer;
+  int bufsize;
+  int mask;
+  int writephase;
+  float maxdelay;
+  float prevOutputLPIn;
+  float prevOutputLPOut;
+  float freq_past;
+
+
+
 };
 
 } // namespace AbsAllpass

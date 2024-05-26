@@ -24,7 +24,7 @@ argument::coefficient the allpass coefficient. Unlike the core Allpass UGens,
 the coefficient is here given directly rather than decay time to easier
 reconstruct reverbs from old papers
 
-argument::filterFreq the frequency of the low pass filter
+argument::freq the frequency of the low pass filter
 
 
 examples::
